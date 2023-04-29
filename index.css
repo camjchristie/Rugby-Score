@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+@font-face {
+  font-family: Timer;
+  src: url(Timer.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    margin: 0 10px; 
+}
+
+.title {
+    width: 155px;
+    height: 36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.score-el {
+    width: 155px;
+    height: 120px;
+    font-family: 'Timer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.button-holder {
+    margin-top: 26px;
+}
+
+.btn {
+    height: 45px;
+    width: 45px;
+    font-family: "Timer";
+    font-size: 20px;
+    color: #9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
